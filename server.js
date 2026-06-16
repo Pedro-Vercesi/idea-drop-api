@@ -18,7 +18,7 @@ connectDB();
 // CORS config
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://idea-drop.netlify.app/",
+  "https://idea-drop.netlify.app",
 ];
 
 app.use(
